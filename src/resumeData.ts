@@ -1,71 +1,68 @@
 const resumeData = {
     imagebaseurl: "https://rbhatia46.github.io/",
     linkedinId: "Your LinkedIn Id",
-    skypeid: "Your skypeid",
     header: {
         name: "Andrison Sánchez",
-        role: "Desarrollador frontend web y móvil",
+        role: "Desarrollador frontend web y móvil.",
         roleDescription:
-            "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time."
+            "Me gusta incursionar en varias partes del desarrollo frontend y backend as a service, me gusta aprender sobre nuevas tecnologías."
     },
     socialLinks: [
         {
             name: "linkedin",
-            url: "https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+            url: "https://www.linkedin.com/in/andrison-s%C3%A1nchez-de-la-cruz-3b63b71b3/",
             className: "fa fa-linkedin"
         },
         {
             name: "github",
-            url: "http://github.com/rbhatia46",
+            url: "https://github.com/Andrison1425",
             className: "fa fa-github"
-        },
-        {
-            name: "skype",
-            url: "http://twitter.com/rbhatia46",
-            className: "fa fa-twitter"
         }
     ],
     aboutMe: {
-        name: "Rahul Bhatia",
+        name: "Andrison Sánchez",
         description:
-            "I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-        address: "India",
-        website: "https://rbhatia46.github.io"
+            "Actualmente, me desempeño como desarrollador de software en Kleio Technology. Mis áreas de especialización incluyen principalmente el desarrollo Frontend, Backend as a Service y Desarrollo Móvil Multiplataforma, y, en una escala menor, la tecnología Blockchain.",
+        address: "Santo Domingo, República Dominicana",
+        website: "https://github.com/Andrison1425"
     },
     myResume: {
         education: [
             {
-                UniversityName: "The LNM Insitute of Information Technology",
-                specialization: "Some specialization",
-                MonthOfPassing: "Aug",
+                UniversityName: "ITLA, Santo Domingo, República Dominicana",
+                specialization: "Desarrollador de software",
+                MonthOfPassing: "Enero",
                 YearOfPassing: "2020",
-                Achievements: "Some Achievements"
-            },
-            {
-                UniversityName: "Some University",
-                specialization: "Some specialization",
-                MonthOfPassing: "Jan",
-                YearOfPassing: "2018",
-                Achievements: "Some Achievements"
+                Achievements: ""
             }
         ],
         work: [
             {
-                CompanyName: "Some Company",
-                specialization: "Some specialization",
-                MonthOfLeaving: "Jan",
-                YearOfLeaving: "2018",
-                Achievements: "Some Achievements"
+                CompanyName: "Kleiotechnology",
+                specialization: "Desarrollador web / Frontend",
+                MonthOfLeaving: "Junio",
+                YearOfLeaving: "2022 - Enero 2023",
+                Achievements:
+                    "Desarrollo de diferentes proyectos web con React, proyecto web3 con React/Solidity/Moralis y móvil con React Native"
             },
             {
-                CompanyName: "Some Company",
-                specialization: "Some specialization",
-                MonthOfLeaving: "Jan",
-                YearOfLeaving: "2018",
-                Achievements: "Some Achievements"
+                CompanyName: "Softone RD",
+                specialization: "Desarrollador Delphi",
+                MonthOfLeaving: "Noviembre",
+                YearOfLeaving: "2021 - Abril 2022",
+                Achievements:
+                    "Trabajo temporal en el mantenimiento e implementación de nuevas funcionalidades para una aplicación de escritorio ERP"
+            },
+            {
+                CompanyName: "Freelance",
+                specialization: "Desarrollador web",
+                MonthOfLeaving: "Febrero",
+                YearOfLeaving: "2021 - Agosto 2021",
+                Achievements:
+                    "Desarrollo de proyectos web como landing pages, y aplicaciones webs usando HTML/CSS/Javascript, Boostrap, PHP/Laravel"
             }
         ],
-        skillsDescription: "Your skills here",
+        skillsDescription: "",
         skills: [
             {
                 skillname: "HTML5"
@@ -74,7 +71,31 @@ const resumeData = {
                 skillname: "CSS"
             },
             {
-                skillname: "Reactjs"
+                skillname: "JavaScript"
+            },
+            {
+                skillname: "ReactJs"
+            },
+            {
+                skillname: "Angular"
+            },
+            {
+                skillname: "TypeScript"
+            },
+            {
+                skillname: "Gatsby"
+            },
+            {
+                skillname: "Ionic"
+            },
+            {
+                skillname: "React Native"
+            },
+            {
+                skillname: "Firebase"
+            },
+            {
+                skillname: "Solidity"
             }
         ]
     },
@@ -82,22 +103,22 @@ const resumeData = {
         {
             name: "project1",
             description: "mobileapp",
-            imgurl: "images/portfolio/phone.jpg"
+            imgurl: "images/portfolio/coffee.jpg"
         },
         {
             name: "project2",
             description: "mobileapp",
-            imgurl: "images/portfolio/project.jpg"
+            imgurl: "images/portfolio/console.jpg"
         },
         {
             name: "project3",
             description: "mobileapp",
-            imgurl: "images/portfolio/project2.png"
+            imgurl: "images/portfolio/girl.jpg"
         },
         {
             name: "project4",
             description: "mobileapp",
-            imgurl: "images/portfolio/phone.jpg"
+            imgurl: "images/portfolio/judah.jpg"
         }
     ]
 }

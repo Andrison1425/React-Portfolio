@@ -54,7 +54,7 @@ const Header = ({ data }: Props) => {
             <div className="row banner">
                 <div className="banner-text">
                     <h1 className="responsive-headline">
-                        I am {data.personalInfo.name}.
+                        Soy {data.personalInfo.name}.
                     </h1>
                     <h3
                         style={{
@@ -62,7 +62,8 @@ const Header = ({ data }: Props) => {
                             fontFamily: "sans-serif "
                         }}
                     >
-                        I am a {data.personalInfo.role}
+                        {data.personalInfo.role}
+                        <br />
                         {data.personalInfo.roleDescription}
                     </h3>
                     <hr />

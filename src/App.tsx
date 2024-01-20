@@ -7,7 +7,7 @@ import Portfolio from "./components/Portfolio"
 import Footer from "./components/Footer"
 import resumeData from "./resumeData"
 
-const App: React.FC = () => {
+const App = () => {
     return (
         <div className="App">
             <Header

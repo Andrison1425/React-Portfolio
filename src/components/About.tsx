@@ -22,12 +22,12 @@ const About = ({ resumeData }: Props) => {
                 </div>
 
                 <div className="nine columns main-col">
-                    <h2>About Me</h2>
+                    <h2>Sobre mí</h2>
                     <p>{resumeData.description}</p>
 
                     <div className="row">
                         <div className="columns contact-details">
-                            <h2>Contact Details</h2>
+                            <h2>Detalles de contacto</h2>
                             <p className="address">
                                 <span>{resumeData.name}</span>
                                 <br></br>
