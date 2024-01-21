@@ -3,9 +3,9 @@ import Header from "./components/Header"
 import About from "./components/About"
 import Resume from "./components/Resume"
 import Portfolio from "./components/Portfolio"
-// import ContactUs from "./components/ContactUs"
 import Footer from "./components/Footer"
 import resumeData from "./resumeData"
+import ContactUs from "./components/ContactUs"
 
 const App = () => {
     return (
@@ -19,7 +19,7 @@ const App = () => {
             <About resumeData={resumeData.aboutMe} />
             <Resume data={resumeData.myResume} />
             <Portfolio data={resumeData.portfolio} />
-            {/* <ContactUs resumeData={resumeData} /> */}
+            <ContactUs linkedinId={resumeData.linkedinId} />
             <Footer data={resumeData.socialLinks} />
         </div>
     )

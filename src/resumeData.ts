@@ -120,7 +120,13 @@ const resumeData = {
             description: "mobileapp",
             imgurl: "images/portfolio/judah.jpg"
         }
-    ]
+    ],
+    contactInformation: {
+        email: "andrison.sanchez@gmail.com",
+        phoneNumber: "+1 809-771-7766",
+        whatsapp:
+            "https://api.whatsapp.com/send?phone=18097717766&text=Hola%20Andrison!"
+    }
 }
 
 export default resumeData

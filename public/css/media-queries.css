@@ -261,6 +261,18 @@
         width: 100%;
     }
 
+    #portfolio .row {
+        width: 92% !important;
+    }
+
+    .img-sec {
+        display: none;
+    }
+
+    .proyectos__cont-prin-app .cont-app-img img {
+        width: 100%;
+    }
+
     /* Call To Action Section
    /* ----------------------------------------------------------------- */
     #call-to-action {
@@ -398,6 +410,28 @@
         font-size: 18px;
         line-height: 54px;
     }
+}
+
+@media (max-width: 640px){
+	.proyectos__cont-prin-app{
+		flex-direction: column;
+        margin-bottom: 6rem;
+	}
+
+    .proyectos__cont-prin-app .cont-app-img{
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+
+    .proyectos__cont-prin-app .cont-app-img img {
+        width: 50%;
+        margin:0;
+    }
+
+	.img-sec{
+		display: inline;
+	}
 }
 
 /* mobile narrow

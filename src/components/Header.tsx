@@ -17,35 +17,30 @@ const Header = ({ data }: Props) => {
                     href="#nav-wrap"
                     title="Show navigation"
                 >
-                    Show navigation
+                    Mostrar navegación
                 </a>
                 <a className="mobile-btn" href="#" title="Hide navigation">
-                    Hide navigation
+                    Ocultar navegación
                 </a>
                 <ul id="nav" className="nav">
                     <li className="current">
                         <a className="smoothscroll" href="#home">
-                            Home
+                            Inicio
                         </a>
                     </li>
                     <li>
                         <a className="smoothscroll" href="#about">
-                            About
+                            Sobre mí
                         </a>
                     </li>
                     <li>
                         <a className="smoothscroll" href="#resume">
-                            Resume
+                            Resumen
                         </a>
                     </li>
                     <li>
                         <a className="smoothscroll" href="#portfolio">
-                            Works
-                        </a>
-                    </li>
-                    <li>
-                        <a className="smoothscroll" href="#testimonials">
-                            Testimonials
+                            Proyectos personales
                         </a>
                     </li>
                 </ul>
