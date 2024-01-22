@@ -192,6 +192,16 @@
         border: none;
     }
 
+    .btn-cv {
+        position: relative;
+        right: auto;
+        display: block;
+    }
+
+    .btn-cv li {
+        margin: 12px 0 !important;
+    }
+
     /* Header Styles
    -------------------------------------------------------------------- */
     header .banner {

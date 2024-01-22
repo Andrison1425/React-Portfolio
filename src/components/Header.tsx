@@ -43,6 +43,14 @@ const Header = ({ data }: Props) => {
                             Proyectos personales
                         </a>
                     </li>
+
+                    <a
+                        href="/ANDRISON-CV.pdf"
+                        className="btn-cv"
+                        download="CV de Andrison"
+                    >
+                        <li>Descargar CV</li>
+                    </a>
                 </ul>
             </nav>
 
