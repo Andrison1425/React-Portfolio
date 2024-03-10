@@ -41,7 +41,7 @@ const resumeData = {
                 CompanyName: "Kleiotechnology",
                 specialization: "Desarrollador web / Frontend",
                 MonthOfLeaving: "Junio",
-                YearOfLeaving: "2022 - Enero 2023",
+                YearOfLeaving: "2022 - Marzo 2024",
                 Achievements:
                     "Desarrollo de diferentes proyectos web con React, proyecto web3 con React/Solidity/Moralis y móvil con React Native"
             },
@@ -90,6 +90,9 @@ const resumeData = {
             },
             {
                 skillname: "React Native"
+            },
+            {
+                skillname: "NextJS"
             },
             {
                 skillname: "Firebase"

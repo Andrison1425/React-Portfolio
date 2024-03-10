@@ -12,6 +12,12 @@ const Porfolio = ({ data }: Props) => {
             <div className="row">
                 <div className="twelve columns collapsed">
                     <h1>Mira algunos de mis proyectos personales.</h1>
+                    <h6>
+                        Por razones legales no puedo mostrar los proyectos en
+                        los que he trabajado bajo contrato, pero en ellos he
+                        utilizado todas las tecnologías que se encuentran
+                        listadas en la sección anterior.
+                    </h6>
                     <div
                         id="portfolio-wrapper"
                         className="bgrid-quarters s-bgrid-thirds cf"
