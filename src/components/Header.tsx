@@ -57,7 +57,7 @@ const Header = ({ data }: Props) => {
             <div className="row banner">
                 <div className="banner-text">
                     <h1 className="responsive-headline">
-                        Soy {data.personalInfo.name}.
+                        {data.personalInfo.name}
                     </h1>
                     <h3
                         style={{

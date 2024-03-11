@@ -125,7 +125,7 @@ const resumeData = {
         }
     ],
     contactInformation: {
-        email: "andrison.sanchez@gmail.com",
+        email: "andrison.sanchez.1@gmail.com",
         phoneNumber: "+1 809-771-7766",
         whatsapp:
             "https://api.whatsapp.com/send?phone=18097717766&text=Hola%20Andrison!"

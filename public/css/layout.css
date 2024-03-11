@@ -733,7 +733,7 @@ ul#nav li.current a {
 }
 
 .proyectos__cont-prin-app {
-   margin: 2rem 0;
+   margin: 1rem 0 4rem 0;
    display: flex;
    width: 100%;
 }
