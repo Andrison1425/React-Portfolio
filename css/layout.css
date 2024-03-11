@@ -451,12 +451,17 @@ ul#nav li.current a {
 }
 
 .ionic {
-   width: 85%;
+   width: 80%;
    animation: ionic 2s ease;
 }
 
 .native {
-   width: 70%;
+   width: 85%;
+   animation: native 2s ease;
+}
+
+.nextjs {
+   width: 40%;
    animation: native 2s ease;
 }
 
@@ -599,6 +604,15 @@ ul#nav li.current a {
    color: #95A3A3;
 }
 
+#portfolio h6 {
+   font: 14px/22px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: #95A3A3;
+}
+
 /* Portfolio Content */
 #portfolio-wrapper .columns {
    margin-bottom: 36px;
@@ -719,7 +733,7 @@ ul#nav li.current a {
 }
 
 .proyectos__cont-prin-app {
-   margin: 2rem 0;
+   margin: 1rem 0 4rem 0;
    display: flex;
    width: 100%;
 }
